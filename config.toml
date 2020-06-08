@@ -118,7 +118,7 @@ disqusShortname = ""
     [params.authors.Rodolfo]
       name	= "Rodolfo Ferro"
       thumbnail = "https://rodolfoferro.github.io/assets/images/profile.jpg"
-      bio = "El mero mero."
+      bio = "I am a science enthusiast, an AI practitioner experienced in the development of tech solutions using automation, artificial intelligence models, web services, computer vision, data extraction and data analysis. Helping startups and entrepreneurs with the power of AI. An eternal learner."
       [params.authors.Rodolfo.social]
         github = "rodolfoferro"
         #facebook = "matt.stratton"
