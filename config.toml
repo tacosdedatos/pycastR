@@ -1,9 +1,9 @@
 baseurl = "https://pycastr.fm/"
 languageCode = "es-mx"
 title = "pycastR"
-theme = "castanet"
+theme = "castanet-theme"
 googleAnalytics = ""
-themesdir = "../.."
+themesdir = "."
 paginate = "9"
 
 
