@@ -11,8 +11,8 @@
           {{ range sort .Site.Menus.main "Identifier"}}
             {{ if .HasChildren }}
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
-              <div class="dropdown-menu">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               {{ range sort .Children  "Identifier"}}
                 <a class="dropdown-item{{ if $currentPage.IsMenuCurrent "Main" . }} active {{ end }}" href="{{ .URL }}">{{ .Name }}</a>
               {{ end }}
