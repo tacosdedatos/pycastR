@@ -63,14 +63,17 @@ enable_jumbo = "true"
 favicon = "/img/favicon.png"
 copyright_notice = "Copyright 2020 [pycastR](https://www.pycastR.fm)"
 itunes_subscribe = "http://itunes.apple.com/us/podcast/arrested-devops/id773888088?mt=2&uo=4&at=11lsCi"
-android_subscribe = "http://subscribeonandroid.com/feeds.podtrac.com/VGAulpN7MY1U"
-spotify_subscribe = "https://open.spotify.com/show/..."
-google_play_subscribe = "https://goo.gl/app/playmusic?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&link=https://play.google.com/music/m/Ihj4yege3lfmp3vs5yoopgxijpi?t%3DArrested_DevOps"
-stitcher_subscribe = "http://www.stitcher.com/podcast/arrested-devops-2/arrested-devops"
-soundcloud_subscribe = "http://feeds.soundcloud.com/users/soundcloud:users:203144248/sounds.rss"
-pocketcasts_subscribe = "http://pcasts.in/feed/feeds.soundcloud.com/users/soundcloud:users:203144248/sounds.rss"
-mailchimp_subscribe = "//arresteddevops.us3.list-manage.com/subscribe/post?u=5e4cbcac996bb9df25f970a89&amp;id=154fa76bcc"
-#rss_subscribe = "http://feed.com/myfeed" #only set this if you don't want to use the built-in feed
+# android_subscribe = "http://subscribeonandroid.com/feeds.podtrac.com/VGAulpN7MY1U"
+spotify_subscribe = "https://open.spotify.com/show/5tAfL2f6NXqCuoitV7cxUs"
+googlepodcasts_subscribe = "https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy9hN2M0NWQ0L3BvZGNhc3QvcnNz"
+# stitcher_subscribe = "http://www.stitcher.com/podcast/arrested-devops-2/arrested-devops"
+# soundcloud_subscribe = "http://feeds.soundcloud.com/users/soundcloud:users:203144248/sounds.rss"
+pocketcasts_subscribe = "https://pca.st/a7axuybq"
+# mailchimp_subscribe = "//arresteddevops.us3.list-manage.com/subscribe/post?u=5e4cbcac996bb9df25f970a89&amp;id=154fa76bcc"
+radiopublic_subscribe = "https://radiopublic.com/pycastr-GZwdb9"
+breaker_subscribe = "https://www.breaker.audio/pycastr"
+anchor_subscribe = "https://anchor.fm/pycastr"
+rss_subscribe = "https://anchor.fm/s/a7c45d4/podcast/rss" #only set this if you don't want to use the built-in feed
 description = "Un podcast efímero de notícias y recursos para aprender del análisis y la visualización de datos. Presentado por [@tacosdedatos](https://twitter.com/tacosdedatos) y [@FerroRodolfo](https://twitter.com/ferrorodolfo)."
 media_prefix = "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/"
 disqusShortname = ""
@@ -87,18 +90,18 @@ disqusShortname = ""
     itunes_second_sub_category = "Tech News"
     language = "en-us"
 
-  [params.podlove] # https://subscribe-button.podlove.org
-    subscribe_title = ""              # fallback: site title from above
-    subscribe_subtitle = ""           # fallback: ""
-    subscribe_description = ""        # fallback: ""
-    subscribe_cover = "img/logo.jpg"  # fallback: ""
-    subscribe_color = "#585e6c"       # fallback: ""
-    subscribe_size = "medium"         # options: small, medium, big
-    subscribe_format = "rectangle"    # options: rectangle, square, cover
-    subscribe_style = "filled"        # options: filled, outline, frameless
-    subscribe_language = "de"         # options: nl (dutch), en (english), eo (esperanto), de (german), fi (finnish), fr (french), ja (french)
-    subscribe_feed_type = "audio"     # options: audio, video
-    subscribe_feed_format = "mp3"     # options: mp3, aac, ogg, opus
+  # [params.podlove] # https://subscribe-button.podlove.org
+  #   subscribe_title = ""              # fallback: site title from above
+  #   subscribe_subtitle = ""           # fallback: ""
+  #   subscribe_description = ""        # fallback: ""
+  #   subscribe_cover = "img/logo.jpg"  # fallback: ""
+  #   subscribe_color = "#585e6c"       # fallback: ""
+  #   subscribe_size = "medium"         # options: small, medium, big
+  #   subscribe_format = "rectangle"    # options: rectangle, square, cover
+  #   subscribe_style = "filled"        # options: filled, outline, frameless
+  #   subscribe_language = "de"         # options: nl (dutch), en (english), eo (esperanto), de (german), fi (finnish), fr (french), ja (french)
+  #   subscribe_feed_type = "audio"     # options: audio, video
+  #   subscribe_feed_format = "mp3"     # options: mp3, aac, ogg, opus
 
   [params.social]
     #github = "arresteddevops"
@@ -131,18 +134,18 @@ disqusShortname = ""
         #twitch = "mattstratton"
     [params.authors.Sergio]
 			name = "Sergio Sánchez"
-			thumbnail = "https://soyserg.io/author/admin/avatar_hub20237ecfae90531d53ea56ecc56a3c7_1774668_250x250_fill_q75_box_center.jpg"
+			thumbnail = "https://soyserg.io/assets/images/portrait.jpg"
 			bio = "My name is Sergio Sánchez Zavala and I’m originally from Tijuana, Baja California, México. I’m dedicated to making research transparent and reproducible. I’m a public policy wonk + data and tech nerd. I like making accessible and reproducible open-sourced tools and resources 🤓 <br> I’m also: <br> 🧑🏼‍🎨🧑🏼‍🏫 a facilitator in the newly formed Data Visualization Society.<br> 🌮📊 the creator of @tacosdedatos - tacosdedatos.com where I hope to build a place to learn data analysis and data visualization best practices, techniques, and knowledge in Spanish. <br> 🧑🏼‍🔬🎨 and a data visualization analyst at Alluma - a social enterprise in the social tech space."
 				[params.authors.Trevor.social]
 					twitter = "chekoswh"
 
-    [params.links]
-      [params.links.ado]
-        name = "Arrested DevOps"
-        url = "https://www.arresteddevops.com"
-      [params.links.ffs]
-        name = "Food Fight Show"
-        url = "https://foodfightshow.org"
-      [params.links.sdt]
-        name = "Software Defined Talk"
-        url = "https://cote.io/podcasts/sdt/"
+    # [params.links]
+    #   [params.links.ado]
+    #     name = "Arrested DevOps"
+    #     url = "https://www.arresteddevops.com"
+    #   [params.links.ffs]
+    #     name = "Food Fight Show"
+    #     url = "https://foodfightshow.org"
+    #   [params.links.sdt]
+    #     name = "Software Defined Talk"
+    #     url = "https://cote.io/podcasts/sdt/"

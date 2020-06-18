@@ -38,14 +38,24 @@
         <a class="btn btn-default" href="{{ .Site.Params.itunes_subscribe}}"><i class="fab fa-itunes-note"></i>&nbsp;iTunes</a>
       </div>
     {{ end }}
+    {{ if (isset .Site.Params "anchor_subscribe") }}
+    <div class = "d-flex p-2 subscribe_buttons col-md-auto">
+      <a class="btn btn-default" href="{{ .Site.Params.anchor_subscribe }}"><i class="fa fa-podcast"></i>&nbsp;Anchor</a>
+    </div>
+    {{ end }}    
+    {{ if (isset .Site.Params "breaker_subscribe") }}
+    <div class = "d-flex p-2 subscribe_buttons col-md-auto">
+      <a class="btn btn-default" href="{{ .Site.Params.breaker_subscribe }}"><i class="fa fa-podcast"></i>&nbsp;Breaker</a>
+    </div>
+    {{ end }}
     {{ if (isset .Site.Params "android_subscribe") }}
       <div class = "d-flex p-2 subscribe_buttons col-md-auto">
         <a class="btn btn-default subscribe_buttons" href="{{ .Site.Params.android_subscribe }}"><i class="fab fa-android"></i>&nbsp;Android</a>
       </div>
     {{ end }}
-    {{ if (isset .Site.Params "google_play_subscribe") }}
+    {{ if (isset .Site.Params "googlepodcasts_subscribe") }}
       <div class = "d-flex p-2 subscribe_buttons col-md-auto">
-        <a class="btn btn-default" href="{{ .Site.Params.google_play_subscribe }}"><i class="fab fa-google-play"></i>&nbsp;Google Play Music</a>
+        <a class="btn btn-default" href="{{ .Site.Params.googlepodcasts_subscribe }}"><i class="fab fa-google-play"></i>&nbsp;Google Podcasts</a>
       </div>
     {{ end }}
     {{ with .Site.Params.stitcher_subscribe }}
@@ -62,6 +72,11 @@
       <div class = "d-flex p-2 subscribe_buttons col-md-auto">
         <a class="btn btn-default" href="{{ .Site.Params.pocketcasts_subscribe }}"><i class="fa fa-podcast"></i>&nbsp;PocketCasts</a>
       </div>
+    {{ end }}
+    {{ if (isset .Site.Params "radiopublic_subscribe") }}
+    <div class = "d-flex p-2 subscribe_buttons col-md-auto">
+      <a class="btn btn-default" href="{{ .Site.Params.radiopublic_subscribe }}"><i class="fa fa-podcast"></i>&nbsp;Radio Public</a>
+    </div>
     {{ end }}
     {{ if (isset .Site.Params "rss_subscribe" )}}
       <div class = "d-flex p-2 subscribe_buttons col-md-auto">

@@ -2,17 +2,18 @@
 Title = "Rodolfo Ferro"
 date = "2020-06-08"
 Twitter = "ferrorodolfo"
-Website = "http://www.google.com/"
+Website = "https://www.rodolfoferro.xyz/"
 Type = "host"
 Facebook = ""
-Linkedin = "mattstratton"
+Linkedin = "rodolfoferro"
 Pronouns = ""
-GitHub = "mattstratton"
-Thumbnail = "img/host/matt.png"
-Pinterest = "mattstratton"
-Instagram = "mattstratton"
+GitHub = "RodolfoFerro"
+Thumbnail = "https://rodolfoferro.github.io/assets/images/profile.jpg"
+Pinterest = ""
+Instagram = ""
 YouTube = ""
-Twitch = "mattstratton"
+Twitch = ""
 Hide = ""
 +++
-Matt Stratton is a solutions architect at Chef, where he demonstrates how Chef’s automation platform provides speed and flexibility to clients’ infrastructure. He is devoted to concepts like Continuous Delivery and Infrastructure as Code, and his license plate actually says “DevOps”. He lives in Chicago and has an unhealthy obsession with Doctor Who, Firefly, and Game of Thrones. And whiskey.
+
+I am a science enthusiast, an AI practitioner experienced in the development of tech solutions using automation, artificial intelligence models, web services, computer vision, data extraction and data analysis. Helping startups and entrepreneurs with the power of AI. An eternal learner.

@@ -8,7 +8,7 @@ Facebook = ""
 Linkedin = "chekos"
 Pronouns = "he/him"
 GitHub = "chekos"
-Thumbnail = "https://soyserg.io/author/admin/avatar_hub20237ecfae90531d53ea56ecc56a3c7_1774668_250x250_fill_q75_box_center.jpg"
+Thumbnail = "https://soyserg.io/assets/images/portrait.jpg"
 # Pinterest = ""
 Instagram = "chekos.visuals"
 YouTube = "tacosdedatos"
@@ -20,6 +20,6 @@ I’m also:
 
 🧑🏼‍🎨🧑🏼‍🏫 a facilitator in the newly formed Data Visualization Society.
 
-🌮📊 the creator of @tacosdedatos - tacosdedatos.com where I hope to build a place to learn data analysis and data visualization best practices, techniques, and knowledge in Spanish.
+🌮📊 the creator of [@tacosdedatos](https://twitter.com/tacosdedatos) - [tacosdedatos.com](https://tacosdedatos.com/) where I hope to build a place to learn data analysis and data visualization best practices, techniques, and knowledge in Spanish.
 
 🧑🏼‍🔬🎨 and a data visualization analyst at Alluma - a social enterprise in the social tech space.

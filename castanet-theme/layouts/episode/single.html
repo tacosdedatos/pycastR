@@ -67,12 +67,12 @@
         {{- with .Params.transcript -}}
         <p>
           <!-- <a class="btn btn-default" href="/"><i class="fab fa-spotify"></i>&nbsp;Spotify</a> -->
-          <button class="hide_transcript btn btn-secondary">Hide Transcript</button>
-          <button class="show_transcript btn btn-secondary">Display Transcript</button>
+          <button class="hide_transcript btn btn-secondary">Esconder transcripción</button>
+          <button class="show_transcript btn btn-secondary">Mostrar transcripción</button>
           </p> 
         <div class="row transcript">
           <div class="col-md-12">
-            <h2>Transcript</h2>
+            <h2>Transcripción</h2>
             {{ (readFile .) | markdownify}}
           </div>
         </div>
@@ -81,7 +81,7 @@
 
   <div class="row">
     <div class="col">
-      <h2>Show Notes</h2>
+      <h2>Notas del show</h2>
       {{ .Content }}
     </div>
   </div>
@@ -91,7 +91,7 @@
   {{ with .Params.guests }}
         <div class="row">
           <div class="col">
-            <h2>Guests</h2>
+            <h2>Invitadxs</h2>
           </div>
         </div>
             {{ range $name := . }}
